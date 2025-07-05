@@ -61,7 +61,7 @@ const DecodePage = () => {
         <div className="flex flex-col h-full w-full items-center bg-[#EA925E] font-playfair border-b-2 border-t-2 text-white">
             <h1 className="font-bitcount pt-10 text-4xl md:text-7xl text-[#EBE3F5]">Décoder</h1>
             <p className="absolute pt-20 md:pt-28 text-xl text-red-700">{error}</p>
-            <div className="grid grid-rows-2 md:grid-cols-2 w-full h-full">
+            <div className="grid maxmd:grid-rows-2 md:grid-cols-2 w-full h-full">
                 <div className="flex flex-col w-full h-full justify-center items-center gap-5">
                     <div className="flex flex-row gap-10 justify-center items-center">
                         <label htmlFor="Nombre de tours">Nombre de tours:</label>
