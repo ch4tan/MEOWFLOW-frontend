@@ -31,7 +31,7 @@ const EncodePage = () => {
                 })
             };
 
-            const res: Response = await fetch("http://localhost:3000/api/encode", options);
+            const res: Response = await fetch("https://meowflow-backend-production.up.railway.app/api/encode", options);
             const data = await res.json();
 
             if(res.status !== 200) throw new Error("error server");
