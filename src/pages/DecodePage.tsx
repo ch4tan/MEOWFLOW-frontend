@@ -31,7 +31,7 @@ const DecodePage = () => {
                 })
             };
 
-            const res: Response = await fetch("http://localhost:3000/api/decode", options);
+            const res: Response = await fetch("https://meowflow-backend-production.up.railway.app/api/decode", options);
             const data = await res.json();
 
             if(res.status !== 200) throw new Error("error server");
