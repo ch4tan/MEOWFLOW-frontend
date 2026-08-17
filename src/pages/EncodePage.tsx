@@ -31,7 +31,7 @@ const EncodePage = () => {
                 })
             };
 
-            const res: Response = await fetch("https://meowflow-backend.onrender.com//api/encode", options);
+            const res: Response = await fetch("https://meowflow-backend.onrender.com/api/encode", options);
             const data = await res.json();
 
             if(res.status !== 200) throw new Error("error server");
